@@ -51,4 +51,11 @@ I began solving <a href="https://adventofcode.com/2015/">Advent of Code 2015</a>
     <td>23 Jan 2021</td>
     <td>`str_count` from <b>stringr</b> library with regular expressions</td>
   </tr>
+
+  <tr>
+    <th scope="row"><a href="/solutions/day6">Day 6</a></th>
+    <td>23 Jan 2021</td>
+    <td>23 Jan 2021</td>
+    <td>matrices, matrix slicing, `rowSums`, `rowCounts`</td>
+  </tr>
 </table>
