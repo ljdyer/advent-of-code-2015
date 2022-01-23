@@ -1,9 +1,4 @@
-library(matrixStats)
 library(stringr)
-
-exit <- function() {
-    invokeRestart("abort")
-}
 
 get_nums <- function(instruction) {
     return(unlist(str_extract_all(instruction, "\\d+")))
@@ -29,7 +24,6 @@ for (l in lines) {
     for (x in range[[1]]:range[[3]]) {
         for (y in range[[2]]:range[[4]]) {
             lights[x, y] <- max(lights[x, y] + increase_amt, 0)
-
         }
     }
 }

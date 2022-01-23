@@ -1,9 +1,4 @@
-library(matrixStats)
 library(stringr)
-
-exit <- function() {
-    invokeRestart("abort")
-}
 
 get_nums <- function(instruction) {
     return(unlist(str_extract_all(instruction, "\\d+")))
