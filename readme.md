@@ -4,7 +4,7 @@ In the words of its creator Eric Wastl:
 
 *"<a href="https://adventofcode.com/">Advent of Code</a> is an Advent calendar of small programming puzzles for a variety of skill sets and skill levels that can be solved in any programming language you like. People use them as a speed contest, interview prep, company training, university coursework, practice problems, or to challenge each other."*
 
-I began solving Advent of Code 2015 in R while teaching myself the language in January 2022.
+I began solving <a href="https://adventofcode.com/2015/">Advent of Code 2015</a> in R while teaching myself the language in January 2022.
 
 ## Stats & solutions
 
@@ -36,5 +36,12 @@ I began solving Advent of Code 2015 in R while teaching myself the language in J
     <td>23 Jan 2021</td>
     <td>23 Jan 2021</td>
     <td>`switch`, `unique` to get number of unique values</td>
+  </tr>
+
+  <tr>
+    <th scope="row"><a href="/solutions/day4/day4.r">Day 3</a></th>
+    <td>23 Jan 2021</td>
+    <td>23 Jan 2021</td>
+    <td>`md5` from <b>openssl</b> library, `paste` to concatenate strings</td>
   </tr>
 </table>
