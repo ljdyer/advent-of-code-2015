@@ -16,7 +16,7 @@ amount_of_ribbon <- function(l, w, h) {
     return(smallest_perimeter + volume)
 }
 
-file <- file("day2/data.txt", open = "r")
+file <- file("solutions/day2/data.txt", open = "r")
 lines <- readLines(file)
 close(file)
 

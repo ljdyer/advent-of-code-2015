@@ -14,7 +14,7 @@ move <- function(coord, direction) {
     return(new_coord)
 }
 
-my_data <- read_file("day3/data.txt")
+my_data <- read_file("solutions/day3/data.txt")
 directions <- unlist(strsplit(my_data, ""))
 
 # === Part One ===

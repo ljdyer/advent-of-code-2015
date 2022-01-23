@@ -6,7 +6,7 @@ exit <- function() {
     invokeRestart("abort")
 }
 
-my_data <- read_file("day1/data.txt")
+my_data <- read_file("solutions/day1/data.txt")
 
 # === Part One ===
 print(str_count(my_data, "\\(") - str_count(my_data, "\\)"))
